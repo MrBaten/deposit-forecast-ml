@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large data files (>100MB - GitHub limit)
+data/customer_deposits_featured.csv
+data/train_data.csv
+models/random_forest.pkl
+
+# Note: Smaller data files are included for reproducibility
+# To include large files, use Git LFS: git lfs track "*.csv"
+
+# Other data files (optional - uncomment to exclude all)
+# data/*.csv
+# data/*.pkl
+
+# Model files (optional - uncomment to exclude all models)
+# models/*.pkl
+# models/*.h5
+# models/*.joblib
+
+# Outputs and cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

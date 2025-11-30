@@ -1,0 +1,40 @@
+================================================================================
+FEATURE ENGINEERING METADATA
+================================================================================
+
+Total features: 39
+
+Feature categories:
+  - Lag features: 5
+  - Rolling statistics: 15
+  - Expanding statistics: 5
+  - Time-based features: 3
+  - Growth features: 4
+  - Same-day features: 4
+  - Customer behavior: 3
+
+Dataset splits:
+
+TRAIN:
+  - n_records: 305000
+  - n_customers: 1000
+  - n_days: 305
+  - date_range: 2023-12-02 to 2024-10-01
+  - total_deposits: 21843648.768920664
+  - non_zero_deposits: 101993
+
+VAL:
+  - n_records: 30000
+  - n_customers: 1000
+  - n_days: 30
+  - date_range: 2024-10-02 to 2024-10-31
+  - total_deposits: 1923472.7206718097
+  - non_zero_deposits: 9885
+
+TEST:
+  - n_records: 30000
+  - n_customers: 1000
+  - n_days: 30
+  - date_range: 2024-11-01 to 2024-11-30
+  - total_deposits: 2046379.8685676698
+  - non_zero_deposits: 10083
