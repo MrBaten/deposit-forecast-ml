@@ -261,4 +261,45 @@ For questions or suggestions, please contact the Data Science Team.
 ---
 
 **Last Updated**: December 1, 2024  
-**Version**: 1.0.0 (Phase 1 Complete)
+**Version**: 1.1.0 (Phase 6 Enhancements)
+
+---
+
+## 📊 Interactive Dashboard
+
+Explore the data and model predictions interactively using the Streamlit dashboard.
+
+```bash
+streamlit run src/dashboard.py
+```
+
+**Features:**
+- **Data Explorer**: Visualize raw data, seasonality, and distributions.
+- **Model Performance**: View metrics and feature importance.
+- **Prediction Simulator**: Input custom values to simulate next-day deposit predictions.
+
+## 🔌 REST API
+
+Serve the model via a robust FastAPI endpoint.
+
+```bash
+uvicorn src.api:app --reload
+```
+
+**Endpoints:**
+- `GET /health`: Check API status.
+- `POST /predict`: Predict for a single customer.
+- `POST /predict/batch`: Predict for multiple customers.
+
+## 🧪 Running Tests
+
+Ensure code reliability by running the test suite.
+
+```bash
+pytest tests/
+```
+
+This covers:
+- Data generation logic
+- Preprocessing pipeline
+- Feature engineering correctness
